@@ -26,7 +26,7 @@ A responsive CRUD User Management application built with React, TypeScript, Reac
 - CSS
 - JSONPlaceholder REST API
 
-## Getting Started
+
 
 ### 1. Install dependencies
 
@@ -54,53 +54,8 @@ JSONPlaceholder simulates POST, PUT, and DELETE requests. It returns successful 
 
 For that reason, this application updates its React state after successful mutation requests. A page refresh will fetch the original JSONPlaceholder users again.
 
-## Suggested GitHub commands
 
-```bash
-git init
-git add .
-git commit -m "Build React TypeScript user management CRUD app"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/user-management-app.git
-git push -u origin main
-```
-
-## Deployment
-
-This project can be deployed directly to Vercel or Netlify.
-
-For Vercel:
-
-```bash
-npm install -g vercel
-vercel
-```
-
-Or import the GitHub repository into the Vercel dashboard and use:
 
 - Build command: `npm run build`
 - Output directory: `dist`
 
-## Project Structure
-
-```text
-user-management-app/
-├── src/
-│   ├── components/
-│   │   ├── Spinner.tsx
-│   │   └── UserForm.tsx
-│   ├── pages/
-│   │   ├── Home.tsx
-│   │   └── UserDetails.tsx
-│   ├── api.ts
-│   ├── App.tsx
-│   ├── main.tsx
-│   ├── styles.css
-│   └── types.ts
-├── index.html
-├── package.json
-├── tsconfig.app.json
-├── tsconfig.node.json
-├── vite.config.ts
-└── README.md
-```
