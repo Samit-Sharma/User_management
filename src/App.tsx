@@ -101,7 +101,7 @@ export default function App() {
           <Link className="brand" to="/">
             User<span>Hub</span>
           </Link>
-          <span className="api-badge">JSONPlaceholder API</span>
+          
         </div>
       </header>
 
